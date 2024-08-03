@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>this is title</title>
+    <style>
+        * {
+            background-color: pink;
+            color: white;
+        }
+        h1 {
+            border: 1px solid black;
+        }
+
+        #table1 {
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <p>para tag</p>
+    <a href="">link tag</a>
+    <img src="" alt="">
+    <div></div>
+    <button></button>
+    <label for="name">Enter name:</label>
+    <input type="text" class="name">
+
+    <input type="checkbox">
+    <input type="color">
+   
+    <table id="table1">
+        <tr>
+            <td><b>col1</b></td>
+            <td><b>col2</b></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <section></section>
+    <sub></sub>
+    <sup></sup>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" name="username">
+        <label for="userpassword">Password:</label>
+        <input type="password" name="userpassword">
+        <button>Submit</button>
+    </form>
+    <ul>
+        <li>nakul</li>
+        <li>nakul</li>
+        <li>nakul</li>
+    </ul>
+    <ol>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ol>
+    <script>
+        console.log("hello world");
+    </script>
+</body>
+</html>
